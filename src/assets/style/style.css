@@ -1,0 +1,30 @@
+/* global */
+
+section.section-custom-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* end of global */
+
+/* section hero banner */
+
+.banner-left {
+  margin-left: -20px;
+}
+.banner-right {
+  padding-top: 400px;
+}
+
+img.banner-img {
+  z-index: 3;
+}
+
+.banner-shape {
+  width: 75%;
+  height: 250px;
+  border-radius: 60px 0 0 0;
+  z-index: 2;
+}
+
+/* end of section hero banner */

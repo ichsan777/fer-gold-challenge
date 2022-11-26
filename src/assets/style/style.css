@@ -13,15 +13,15 @@ section.section-custom-padding {
 
 /* section hero banner */
 
-.banner-right {
+#hero-banner .banner-right {
   padding-top: 400px;
 }
 
-img.banner-img {
+#hero-banner img.banner-img {
   z-index: 3;
 }
 
-.banner-shape {
+#hero-banner .banner-shape {
   width: 77%;
   height: 50%;
   border-radius: 60px 0 0 0;
@@ -29,20 +29,20 @@ img.banner-img {
 }
 
 @media only screen and (min-width: 1000px) {
-  .banner-left {
+  #hero-banner .banner-left {
     margin-left: -20px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .banner-left {
+  #hero-banner .banner-left {
     margin-right: 15%;
   }
 }
 @media only screen and (max-width: 425px) {
-  .banner-right {
+  #hero-banner .banner-right {
     padding-top: 250px;
   }
-  .banner-title {
+  #hero-banner .banner-title {
     line-height: 1.5em;
     font-size: 2.5em;
   }
@@ -54,24 +54,24 @@ img.banner-img {
 
 #about {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
-.about-img {
+#about .about-img {
   width: 90%;
   height: auto;
 }
 
-ul.about-list {
+#about ul.about-list {
   margin-left: 1.75em;
 }
-ul.about-list li {
+#about ul.about-list li {
   display: flex;
   align-items: center;
   padding-left: 15px;
   margin-bottom: 25px;
 }
-ul.about-list li i {
+#about ul.about-list li i {
   background: #cfd4ed;
   padding: 5px;
   border-radius: 50%;
@@ -79,3 +79,25 @@ ul.about-list li i {
 }
 
 /* End of section About */
+
+/* Section Why Us */
+
+#whyus {
+  padding-bottom: 60px;
+}
+
+#whyus .custom-Card-Whyus {
+  border-radius: 12px;
+  border-width: 2px;
+}
+#whyus .custom-Card-Whyus .card-body {
+  padding: 25px;
+}
+#whyus .custom-Card-Whyus .fa-Custom-Whyus {
+  font-size: 1.5em;
+}
+#whyus .custom-Card-Whyus .fa-Custom-Whyus i {
+  vertical-align: middle;
+}
+
+/* End of Section Why Us */

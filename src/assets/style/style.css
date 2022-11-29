@@ -115,12 +115,45 @@ section.section-custom-padding {
   border-radius: 8px;
   border: none;
 }
-#testimonial .testi-card .card-body {
-  padding: 69px 32px 49px 46px;
-}
-#testimonial .testi-card .client-img {
-  width: 100%;
-  height: auto;
+
+@media only screen and (min-width: 769px) {
+  #testimonial .carousel-item .testi-card:first-child {
+    margin-left: -25% !important;
+    margin-right: 60px !important;
+  }
+  #testimonial .carousel-item .testi-card:last-child {
+    margin-right: -25% !important;
+    margin-left: 60px !important;
+  }
+  #testimonial .testi-card .card-body {
+    padding: 69px 32px 49px 46px;
+  }
+  #testimonial .testi-card .client-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel,
+  .carousel-inner,
+  .carousel-inner > .carousel-item {
+    overflow: hidden;
+  }
+  .carousel-inner > .carousel-item.active,
+  .carousel-inner > .carousel-item-next,
+  .carousel-inner > .carousel-item-prev {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .carousel-control-prev {
+    z-index: 2000;
+    left: 22%;
+  }
+
+  .carousel-control-next {
+    z-index: 2000;
+    right: 22%;
+  }
 }
 
 /* End of Section Testimonial */

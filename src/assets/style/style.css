@@ -101,3 +101,26 @@ section.section-custom-padding {
 }
 
 /* End of Section Why Us */
+
+/* Section Testimonial */
+
+#testimonial .carousel-testicard {
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+
+#testimonial .testi-card {
+  background-color: #f1f3ff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  border: none;
+}
+#testimonial .testi-card .card-body {
+  padding: 69px 32px 49px 46px;
+}
+#testimonial .testi-card .client-img {
+  width: 100%;
+  height: auto;
+}
+
+/* End of Section Testimonial */

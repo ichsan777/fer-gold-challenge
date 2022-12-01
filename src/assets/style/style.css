@@ -116,6 +116,25 @@ section.section-custom-padding {
   border: none;
 }
 
+#testimonial #myCarousel .carousel-control-prev,
+#testimonial #myCarousel .carousel-control-next {
+  opacity: 1;
+  top: initial;
+  bottom: -85px;
+}
+#testimonial #myCarousel .carousel-control-prev {
+  left: 40%;
+}
+#testimonial #myCarousel .carousel-control-next {
+  right: 40%;
+}
+#testimonial #myCarousel .carousel-nav-container .fa-custom-testimonial {
+  font-size: 24px;
+}
+#testimonial #myCarousel .carousel-nav-container .fa-custom-testimonial i {
+  vertical-align: middle;
+}
+
 @media only screen and (min-width: 769px) {
   #testimonial .carousel-item .testi-card:first-child {
     margin-left: -25% !important;
@@ -133,7 +152,6 @@ section.section-custom-padding {
     height: auto;
   }
 
-  .carousel,
   .carousel-inner,
   .carousel-inner > .carousel-item {
     overflow: hidden;

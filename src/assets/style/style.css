@@ -104,6 +104,11 @@ section.section-custom-padding {
 
 /* Section Testimonial */
 
+#testimonial {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
 #testimonial .carousel-testicard {
   flex-wrap: nowrap;
   overflow: scroll;
@@ -119,20 +124,34 @@ section.section-custom-padding {
 #testimonial #myCarousel .carousel-control-prev,
 #testimonial #myCarousel .carousel-control-next {
   opacity: 1;
-  top: initial;
-  bottom: -85px;
+  position: initial;
+  width: 60px;
+  margin: 0 15px;
 }
-#testimonial #myCarousel .carousel-control-prev {
-  left: 40%;
-}
-#testimonial #myCarousel .carousel-control-next {
-  right: 40%;
-}
+
 #testimonial #myCarousel .carousel-nav-container .fa-custom-testimonial {
-  font-size: 24px;
+  font-size: 21px;
 }
 #testimonial #myCarousel .carousel-nav-container .fa-custom-testimonial i {
   vertical-align: middle;
+}
+#testimonial #myCarousel .carousel-nav-container .fa-custom-testimonial i.fa-circle {
+  color: #fff;
+  text-shadow: -1px 0 #c4c4c4, 0 1px #c4c4c4, 1px 0 #c4c4c4, 0 -1px #c4c4c4;
+  transition: 0.3s ease;
+}
+#testimonial #myCarousel .carousel-nav-container .fa-custom-testimonial i.fa-chevron-left,
+#testimonial #myCarousel .carousel-nav-container .fa-custom-testimonial i.fa-chevron-right {
+  color: #222;
+  transition: 0.3s ease;
+}
+#testimonial #myCarousel .carousel-nav-container .fa-custom-testimonial:hover i.fa-circle {
+  color: #5cb85f;
+  text-shadow: -1px 0 #5cb85f, 0 1px #5cb85f, 1px 0 #5cb85f, 0 -1px #5cb85f;
+}
+#testimonial #myCarousel .carousel-nav-container .fa-custom-testimonial:hover i.fa-chevron-left,
+#testimonial #myCarousel .carousel-nav-container .fa-custom-testimonial:hover i.fa-chevron-right {
+  color: #fff;
 }
 
 @media only screen and (min-width: 769px) {
@@ -165,13 +184,67 @@ section.section-custom-padding {
 
   .carousel-control-prev {
     z-index: 2000;
-    left: 22%;
   }
 
   .carousel-control-next {
     z-index: 2000;
-    right: 22%;
   }
 }
 
 /* End of Section Testimonial */
+
+/* Section CTA */
+
+#cta {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#cta .container-cta {
+  background: #0d28a6;
+  border-radius: 13px;
+  padding: 64px;
+}
+
+#cta .heading-cta {
+  font-size: 45px;
+}
+#cta .desc-cta {
+  margin-bottom: 60px;
+}
+#cta .button-cta {
+  background: #5cb85f;
+  border-radius: 2px;
+  transition: 0.3s ease;
+  padding: 8px 12px;
+}
+#cta .button-cta:hover {
+  background: #5cb85fb4;
+}
+
+/* End of Section CTA */
+
+/* Section FAQ */
+
+#faq {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#faqAccordion .accordion-item {
+  background: #ffffff;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+#faqAccordion .accordion-button {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 20px;
+  padding: 18px 24px;
+}
+#faqAccordion .accordion-button:focus {
+  box-shadow: none;
+}
+
+/* End of Section FAQ */

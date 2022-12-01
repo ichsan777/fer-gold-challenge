@@ -168,7 +168,7 @@
 
     <!-- Section Testimonial -->
 
-    <section id="testimonial" class="section-custom-padding">
+    <section id="testimonial" class="">
       <div class="container-fluid">
         <div class="row">
           <div class="col">
@@ -234,24 +234,26 @@
                   </div>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                <div class="carousel-nav-container d-flex justify-content-center align-items-center">
-                  <span class="fa-stack fa-custom-testimonial">
-                    <i class="fa-solid fa-circle fa-stack-2x text-success"></i>
-                    <i class="fa-solid fa-chevron-left fa-stack-1x"></i>
-                  </span>
-                </div>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                <div class="carousel-nav-container d-flex justify-content-center align-items-center">
-                  <span class="fa-stack fa-custom-testimonial">
-                    <i class="fa-solid fa-circle fa-stack-2x text-success"></i>
-                    <i class="fa-solid fa-chevron-right fa-stack-1x"></i>
-                  </span>
-                </div>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="d-flex justify-content-center mt-5">
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <div class="carousel-nav-container d-flex justify-content-center align-items-center">
+                    <span class="fa-stack fa-custom-testimonial">
+                      <i class="fa-solid fa-circle fa-stack-2x"></i>
+                      <i class="fa-solid fa-chevron-left fa-stack-1x"></i>
+                    </span>
+                  </div>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <div class="carousel-nav-container d-flex justify-content-center align-items-center">
+                    <span class="fa-stack fa-custom-testimonial">
+                      <i class="fa-solid fa-circle fa-stack-2x"></i>
+                      <i class="fa-solid fa-chevron-right fa-stack-1x"></i>
+                    </span>
+                  </div>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -259,6 +261,101 @@
     </section>
 
     <!-- End of Section Testimonial -->
+
+    <!-- Section CTA -->
+
+    <section id="cta" class="">
+      <div class="container container-cta">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="fw-bold mb-4 text-center text-white heading-cta">Sewa Mobil di (Lokasimu) Sekarang</h2>
+            <p class="fs-5 fw-bold text-center text-white desc-cta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button type="button" class="btn button-cta text-white">Mulai Sewa Mobil</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Section CTA -->
+
+    <!-- Section FAQ -->
+
+    <section id="faq" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="fs-1 fw-bold mb-4 text-start">Frequently Asked Question</h2>
+            <p class="fs-5 fw-bold mb-5 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">Apa saja syarat yang dibutuhkan?</button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+                    well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                    <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="true" aria-controls="faq2">Berapa hari minimal sewa mobil lepas kunci?</button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+                    well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                    <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="true" aria-controls="faq3">Berapa hari sebelumnya sabaiknya booking sewa mobil?</button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+                    well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                    <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="true" aria-controls="faq4">Apakah Ada biaya antar-jemput?</button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+                    well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                    <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="true" aria-controls="faq5">Bagaimana jika terjadi kecelakaan</button>
+                </h2>
+                <div id="faq5" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+                    well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                    <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Section FAQ -->
 
     <script src="./src/assets/bootstrap/js/bootstrap.min.js"></script>
     <!-- Import JQuery -->

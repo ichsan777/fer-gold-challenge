@@ -11,6 +11,28 @@ section.section-custom-padding {
 
 /* end of global */
 
+/* Navbar/Header */
+
+@media only screen and (min-width: 991px) {
+  nav.navbar a.offcanvas-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 990px) {
+  nav.navbar button.navbar-toggler {
+    display: none;
+  }
+  #mobileOffcanvas .offcanvas-header {
+    padding-bottom: 0px;
+    padding-top: 34px;
+  }
+  #mobileOffcanvas .offcanvas-body {
+    padding-top: 0px;
+  }
+}
+
+/* End of Navbar / Header */
+
 /* section hero banner */
 
 #hero-banner .banner-right {
@@ -228,7 +250,7 @@ section.section-custom-padding {
 
 #faq {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 150px;
 }
 
 #faqAccordion .accordion-item {
@@ -248,3 +270,53 @@ section.section-custom-padding {
 }
 
 /* End of Section FAQ */
+
+/* Footer Website */
+
+#footer-car {
+  padding-bottom: 158px;
+}
+#footer-car .row .footer-col {
+  margin-bottom: 1.25rem;
+}
+
+#footer-car .footer-1 a {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #212529;
+  transition: 0.3s ease;
+}
+#footer-car .footer-1 a:hover {
+  color: #0d28a6;
+}
+
+#footer-car .footer-2 .footer-nav {
+  list-style-type: none;
+}
+#footer-car .footer-2 .footer-nav .footer-nav-item {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+
+#footer-car .footer-3 .footer-sosmed {
+  display: inline-block;
+  margin: 0 8px;
+  transition: 0.3s ease;
+}
+#footer-car .footer-3 .footer-sosmed:hover {
+  opacity: 0.75;
+}
+#footer-car .footer-3 .footer-sosmed-first {
+  margin-left: 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  #footer-car .footer-2 .footer-nav {
+    padding-left: 0px;
+  }
+}
+/* End of Footer Website */

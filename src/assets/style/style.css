@@ -33,6 +33,8 @@ section.section-custom-padding {
 
 /* End of Navbar / Header */
 
+/*------------------------------ HALAMAN HOME ---------------------------*/
+
 /* section hero banner */
 
 #hero-banner .banner-right {
@@ -193,22 +195,22 @@ section.section-custom-padding {
     height: auto;
   }
 
-  .carousel-inner,
-  .carousel-inner > .carousel-item {
+  #testimonial .carousel-inner,
+  #testimonial .carousel-inner > .carousel-item {
     overflow: hidden;
   }
-  .carousel-inner > .carousel-item.active,
-  .carousel-inner > .carousel-item-next,
-  .carousel-inner > .carousel-item-prev {
+  #testimonial .carousel-inner > .carousel-item.active,
+  #testimonial .carousel-inner > .carousel-item-next,
+  #testimonial .carousel-inner > .carousel-item-prev {
     display: flex;
     flex-wrap: nowrap;
   }
 
-  .carousel-control-prev {
+  #testimonial .carousel-control-prev {
     z-index: 2000;
   }
 
-  .carousel-control-next {
+  #testimonial .carousel-control-next {
     z-index: 2000;
   }
 }
@@ -253,19 +255,19 @@ section.section-custom-padding {
   padding-bottom: 150px;
 }
 
-#faqAccordion .accordion-item {
+#faq #faqAccordion .accordion-item {
   background: #ffffff;
   border: 1px solid #d4d4d4;
   border-radius: 4px;
   margin-bottom: 20px;
 }
-#faqAccordion .accordion-button {
+#faq #faqAccordion .accordion-button {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 20px;
   padding: 18px 24px;
 }
-#faqAccordion .accordion-button:focus {
+#faq #faqAccordion .accordion-button:focus {
   box-shadow: none;
 }
 
@@ -320,3 +322,9 @@ section.section-custom-padding {
   }
 }
 /* End of Footer Website */
+
+/*------------------------------ END OF HALAMAN HOME ---------------------------*/
+
+/*------------------------------ HALAMAN CARI MOBIL ---------------------------*/
+
+/*------------------------------ END OF HALAMAN CARI MOBIL ---------------------------*/

@@ -14,7 +14,7 @@
     <!-- Custom styles for this template -->
     <link href="./src/assets/style/style.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="pageCariMobil">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
@@ -85,7 +85,54 @@
           </div>
         </div>
       </section>
-      <!-- End of Section Hero Banner -->
+    <!-- End of Section Hero Banner -->
+
+    <!-- Section Form Cari Mobil -->
+    <section id="form-pencarian">
+      <div class="container">
+        <div class="row form-box">
+          <div class="col-lg-12">
+            <form class="row g-2">
+              <div class="col-lg">
+                <label for="namaMobil" class="form-label">Nama Mobil</label>
+                <input id="namaMobil" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Ketik nama/tipe mobil">
+              </div>
+              <div class="col-lg">
+                <label for="kategoriMobil" class="form-label">Kategori</label>
+                <select id="kategoriMobil" class="form-select" aria-label="Default select example">
+                  <option selected disabled>Masukan Kapasitas Mobil</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-lg">
+                <label for="hargaMobil" class="form-label">Harga</label>
+                <select id="hargaMobil" class="form-select" aria-label="Default select example">
+                  <option selected disabled>Masukan Harga Sewa per Hari</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-lg">
+                <label for="statusMobil" class="form-label">Status</label>
+                <select id="statusMobil" class="form-select" aria-label="Default select example">
+                  <option selected disabled>Disewa</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-lg-1 submitColumn">
+                <button type="submit" class="btn btn-primary buttonSubmit">Cari Mobil</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section Form Cari Mobil -->
 
     <!-- Footer Website -->
     <footer>

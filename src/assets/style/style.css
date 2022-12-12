@@ -374,7 +374,7 @@ section.section-custom-padding {
 
 /* end of section hero banner */
 
-/* Section Form Cari Mobi */
+/* Section Form Cari Mobil */
 
 #form-pencarian {
   padding-bottom: 60px;
@@ -394,8 +394,39 @@ section.section-custom-padding {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
 }
 
+#form-pencarian .form-box form input,
+#form-pencarian .form-box form select,
+#form-pencarian .form-box form select option {
+  transition: 0.3s ease;
+}
+#form-pencarian .form-box form select option {
+  padding: 10px 11px;
+}
+#form-pencarian .form-box form select#statusMobil {
+  font-weight: 700;
+  color: #8a8a8a;
+}
+#form-pencarian .form-box form input:focus {
+  border: solid 1px #35b0a7;
+  box-shadow: none;
+}
+#form-pencarian .form-box form select:focus {
+  border: solid 1px #5cb85f;
+  box-shadow: none;
+}
+#form-pencarian .form-box form option:hover {
+  background-color: #c9e7ca;
+  color: #5cb85f;
+  font-weight: 700;
+  box-shadow: none;
+}
 #form-pencarian .form-box .buttonSubmit {
   margin-top: 32px;
+  background-color: #5cb85f;
+  border-color: #5cb85f;
+}
+#form-pencarian .form-box .buttonSubmit:hover {
+  background-color: #3b923e;
 }
 
 @media only screen and (min-width: 992px) {
@@ -414,6 +445,6 @@ section.section-custom-padding {
   }
 }
 
-/* End of Section Form Cari Mobi */
+/* End of Section Form Cari Mobil */
 
 /*------------------------------ END OF HALAMAN CARI MOBIL ---------------------------*/

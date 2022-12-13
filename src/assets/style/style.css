@@ -378,7 +378,8 @@ section.section-custom-padding {
 
 #form-pencarian {
   padding-bottom: 60px;
-  /* min-height: 30vh; */
+  z-index: 5;
+  position: relative;
 }
 
 #form-pencarian .form-box {
@@ -433,18 +434,99 @@ section.section-custom-padding {
   #form-pencarian .form-box .submitColumn {
     width: 10%;
   }
-  #form-pencarian .form-box {
+  #form-pencarian {
     transform: translateY(-50%);
   }
 }
 @media only screen and (max-width: 991px) {
-  #form-pencarian .form-box {
+  #form-pencarian {
     margin-top: -30px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
 /* End of Section Form Cari Mobil */
 
 /*------------------------------ END OF HALAMAN CARI MOBIL ---------------------------*/
+
+/*------------------------------ HALAMAN HASIL CARI MOBIL ---------------------------*/
+
+/* Section Page Title */
+
+.pageHasilCariMobil #pageTitle {
+  min-height: 260px;
+  background-color: #f1f3ff;
+}
+
+/* End of Section Page Title */
+
+/* Section Form Pencarian */
+
+.pageHasilCariMobil #form-pencarian {
+  padding-bottom: 0px;
+}
+
+/* End of Section Form Pencarian */
+
+/* Section Hasil Pencarian */
+
+.pageHasilCariMobil #hasilPencarian {
+  padding-top: 0px;
+  padding-bottom: 160px;
+}
+
+.pageHasilCariMobil #hasilPencarian .rowContainer > .col {
+  padding: 0px;
+}
+
+.pageHasilCariMobil #hasilPencarian .cardMobil {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  border: none;
+  padding: 24px;
+  padding-top: 55px;
+}
+
+.pageHasilCariMobil #hasilPencarian .cardMobil .card-body {
+  padding: 0px;
+}
+.pageHasilCariMobil #hasilPencarian .cardMobil .gambarMobil {
+  margin-bottom: 45px;
+}
+.pageHasilCariMobil #hasilPencarian .cardMobil .kategoriMobil {
+  margin-bottom: 8px;
+}
+.pageHasilCariMobil #hasilPencarian .cardMobil .hargaMobil {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.pageHasilCariMobil #hasilPencarian .cardMobil .deskripsiMobil {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.pageHasilCariMobil #hasilPencarian .cardMobil .btnPilihMobil {
+  background-color: #5cb85f;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  transition: 0.3s ease;
+}
+.pageHasilCariMobil #hasilPencarian .cardMobil .btnPilihMobil:hover {
+  background-color: #3b923e;
+}
+
+@media only screen and (max-width: 991px) {
+  .pageHasilCariMobil #hasilPencarian {
+    padding-top: 30px;
+  }
+  .pageHasilCariMobil #hasilPencarian .cardMobil {
+    margin: 10px;
+  }
+}
+
+/* End of Section Hasil Pencarian */
+
+/*------------------------------ END OF HALAMAN HASIL CARI MOBIL ---------------------------*/

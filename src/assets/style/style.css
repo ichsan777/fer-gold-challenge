@@ -530,3 +530,107 @@ section.section-custom-padding {
 /* End of Section Hasil Pencarian */
 
 /*------------------------------ END OF HALAMAN HASIL CARI MOBIL ---------------------------*/
+
+/*------------------------------ HALAMAN DETAIL SEWA MOBIL ---------------------------*/
+
+/* Section Page Title */
+
+.pageDetailSewaMobil #pageTitle {
+  min-height: 260px;
+  background-color: #f1f3ff;
+}
+
+/* End of Section Page Title */
+
+/* Section Form Pencarian */
+
+.pageDetailSewaMobil #form-pencarian {
+  padding-bottom: 0px;
+}
+
+/* End of Section Form Pencarian */
+
+/* Section Detail Mobil */
+
+.pageDetailSewaMobil #detail-mobil {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.pageDetailSewaMobil #detail-mobil .kolomKiriInner,
+.pageDetailSewaMobil #detail-mobil .kolomKananInner {
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.pageDetailSewaMobil #detail-mobil .detailTitle {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.pageDetailSewaMobil #detail-mobil .detailSubtitle {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.pageDetailSewaMobil #detail-mobil .detailList {
+  margin-bottom: 16px;
+}
+
+.pageDetailSewaMobil #detail-mobil .detailList li {
+  color: #8a8a8a;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 175%;
+}
+
+.pageDetailSewaMobil #detail-mobil #refundAccordion .accordion-item {
+  border: none;
+}
+
+.pageDetailSewaMobil #detail-mobil #refundAccordion .accordion-item .accordion-header .accordion-button {
+  padding: 0px;
+  background-color: transparent;
+  color: #000;
+  box-shadow: none;
+}
+
+.pageDetailSewaMobil #detail-mobil #refundAccordion .accordion-item #faq1 .accordion-body {
+  padding: 0px;
+}
+
+.pageDetailSewaMobil #detail-mobil .imageMobil {
+  margin-bottom: 24px;
+}
+
+.pageDetailSewaMobil #detail-mobil .iconPenumpang {
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.pageDetailSewaMobil #detail-mobil .jumlahPenumpangText {
+  margin-bottom: 55px;
+}
+
+.pageDetailSewaMobil #detail-mobil .rowHarga {
+  margin-bottom: 55px;
+}
+
+@media only screen and (min-width: 992px) {
+  .pageDetailSewaMobil #detail-mobil .kolomKiri {
+    padding-left: 0px;
+  }
+
+  .pageDetailSewaMobil #detail-mobil .kolomKanan {
+    padding-right: 0px;
+  }
+}
+
+/* End of Section Detail Mobil */
+
+/*------------------------------ END OF HALAMAN DETAIL SEWA MOBIL ---------------------------*/

@@ -14,7 +14,7 @@
     <!-- Custom styles for this template -->
     <link href="./src/assets/style/style.css" rel="stylesheet" />
   </head>
-  <body class="pageCariMobil">
+  <body class="pageDetailSewaMobil">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
@@ -67,20 +67,10 @@
     <!-- end of navbar -->
 
     <!-- Section Hero Banner -->
-    <section id="hero-banner" class="pt-5 bg-banner">
-      <div class="container-fluid">
-        <div class="row align-items-center justify-content-end">
-          <div class="col-xxl-4 col-lg-5">
-            <div class="banner-left">
-              <h1 class="fw-bold banner-title">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
-              <p class="fs-5 fw-bold mt-4 mb-3">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-              <a class="btn btn-success btn-lg" href="#" role="button">Mulai Sewa Mobil</a>
-            </div>
-          </div>
-          <div class="col-lg-6 position-relative pb-10 banner-right">
-            <img src="./src/assets/img/Mercedes Car EQC 300kW Edition - 900x598 1.png" alt="mobil-mercedes" class="banner-img position-absolute bottom-0 end-0 img-fluid" />
-            <div class="bg-primary banner-shape position-absolute bottom-0 end-0"></div>
-          </div>
+    <section id="pageTitle">
+      <div class="container">
+        <div class="row">
+          <div class="col"></div>
         </div>
       </div>
     </section>
@@ -130,6 +120,72 @@
       </div>
     </section>
     <!-- End of Section Form Cari Mobil -->
+
+    <!-- Section Detail Mobil -->
+
+    <section id="detail-mobil">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 kolomKiri">
+            <div class="kolomKiriInner">
+              <h2 class="detailTitle">Tentang Paket</h2>
+              <h3 class="detailSubtitle">Include</h3>
+              <ul class="detailList">
+                <li>Apa saja yang termasuk dalam paket misal durasi max 12 jam</li>
+                <li>Sudah termasuk bensin selama 12 jam</li>
+                <li>Sudah termasuk Tiket Wisata</li>
+                <li>Sudah termasuk pajak</li>
+              </ul>
+              <h3 class="detailSubtitle">Exclude</h3>
+              <ul class="detailList">
+                <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                <li>Tidak termasuk akomodasi penginapan</li>
+              </ul>
+              <div class="accordion mt-2" id="refundAccordion">
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed detailSubtitle" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">Refund, Reschedule, Overtime</button>
+                  </h3>
+                  <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#refundAccordion">
+                    <div class="accordion-body">
+                      <ul class="detailList">
+                        <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                        <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                        <li>Tidak termasuk akomodasi penginapan</li>
+                        <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                        <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                        <li>Tidak termasuk akomodasi penginapan</li>
+                        <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                        <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                        <li>Tidak termasuk akomodasi penginapan</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 kolomKanan">
+            <div class="kolomKananInner">
+              <img src="./src/assets/img/mobilHasilCari.png" alt="Mobil Innova" class="img-fluid mx-auto d-block imageMobil" />
+              <h3 class="detailSubtitle mb-0">Innova</h3>
+              <p class="jumlahPenumpangText"><img src="./src/assets/img/fi_users.png" alt="icon User" class="iconPenumpang" />6 - 8 orang</p>
+              <div class="row rowHarga">
+                <div class="col-lg-6 text-start">
+                  <h3>Total</h3>
+                </div>
+                <div class="col-lg-6 text-end">
+                  <h3>Rp 500.000</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Section Detail Mobil -->
 
     <!-- Footer Website -->
     <footer>
